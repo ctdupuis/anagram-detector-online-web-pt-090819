@@ -5,4 +5,11 @@ class Anagram
     @word = word
   end
   
+  def match(array)
+    array.select do |element|
+      if 
+        
+      end
+    end
+  end
 end
