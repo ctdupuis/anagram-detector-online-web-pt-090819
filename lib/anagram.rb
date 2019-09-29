@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   attr_accessor :word 
   
@@ -7,9 +9,7 @@ class Anagram
   
   def match(array)
     array.select do |element|
-      if 
-        
-      end
+      binding.pry
     end
   end
 end
